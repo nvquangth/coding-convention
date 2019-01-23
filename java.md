@@ -80,3 +80,4 @@ void setServerPort(String value) {
       handleError();                      // with one generic handler!
   }
 ```
+Bạn không được làm như vậy. Trong hầu hết các trường hợp, không khuyến khích việc bắt ngoại lệ chung hoặc ném ra ngoại lệ.Vì điều này rất nguy hiểm khi không xử lý được ngoại lệ mong muốn để xử lý lỗi. Xem thêm [tại đây](https://source.android.com/setup/contribute/code-style#dont-catch-generic-exception).
